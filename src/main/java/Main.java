@@ -12,13 +12,18 @@ public class Main {
 //        Card aceOfSpades = new Card(Suit.SPADES,13);
 //        Card aceOfHearts = new Card(Suit.HEARATS,13);
 //        System.out.println(aceOfHearts.beats(aceOfSpades));
-        Bil bilen = new Bil(1200);
-        Trailer trailer = new Trailer(1200);
-        Trailer tungTrailer = new Trailer(2500);
-        System.out.println(bilen.getTrailer());
-        System.out.println(bilen.setTrailer(trailer));
-        System.out.println(bilen.setTrailer(tungTrailer));
-        System.out.println(bilen.totalVægt());
+//        Bil bilen = new Bil(1200);
+//        Trailer trailer = new Trailer(1200);
+//        Trailer tungTrailer = new Trailer(2500);
+//        System.out.println(bilen.getTrailer()
+//        );
+//        System.out.println(bilen.setTrailer(trailer));
+//        System.out.println(bilen.setTrailer(tungTrailer));
+//        System.out.println(bilen.totalVægt());
+//
+//        Card card = new Card(Suit.HEARATS,23);
+
+
 
     }
 }

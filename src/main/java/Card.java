@@ -3,6 +3,10 @@ public class Card {
     private int value;
 
     public Card(Suit suit, int value) {
+        if(value > 13 || value < 1) {
+            throw new IllegalArgumentException("value too high or too low");
+
+        }
         this.suit = suit;
         this.value = value;
     }
