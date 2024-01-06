@@ -1,3 +1,5 @@
+package bil;
+
 public class Trailer {
     private int vægt;
 

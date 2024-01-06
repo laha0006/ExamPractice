@@ -1,3 +1,5 @@
+package card;
+
 public enum Suit {
     SPADES(4),
     HEARATS(3),

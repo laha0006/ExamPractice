@@ -1,3 +1,5 @@
+package bil;
+
 public class Bil {
     private Trailer trailer;
     private int vægt;
@@ -6,7 +8,7 @@ public class Bil {
         this.vægt = vægt;
     }
 
-    public int totalVægt() {
+    public int getTotalVægt() {
         if(trailer != null)
             return vægt + trailer.getVægt();
         return vægt;
